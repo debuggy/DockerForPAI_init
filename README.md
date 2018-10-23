@@ -18,19 +18,19 @@ When submitting jobs to [Microsoft PAI](https://github.com/Microsoft/pai), a doc
 ## Create an autobuild image repo in dockerhub
 - Use your dockerhub account to create an autobuild image repo for your docker image and link the github repo created in the previous step. Here is an [official guide](https://docs.docker.com/docker-cloud/builds/automated-build/) for how to create a autobuild image. Below images illustrate an example process. You need to link your github account to this dockerhub account first.
 
-![image](./images/create_autobuild.png)
+![image](https://raw.githubusercontent.com/debuggy/DockerForPAI_init/master/images/create_autobuild.png)
 
-![image](./images/select_github_repo.png)
+![image](https://raw.githubusercontent.com/debuggy/DockerForPAI_init/master/images/select_github_repo.png)
 
-![image](./images/customize_autobuild.png)
+![image](https://raw.githubusercontent.com/debuggy/DockerForPAI_init/master/images/customize_autobuild.png)
 
 - In the butobuild settings, you can triger a docker image build process manually, or auto build everytime when the github repo updates. 
 
-![build settings](./images/build_settings.png)
+![build settings](https://raw.githubusercontent.com/debuggy/DockerForPAI_init/master/images/build_settings.png)
 
 - You can check the build details whether the docker image build process succeeds or fails.
 
-![build details](./images/build_details.png)
+![build details](https://raw.githubusercontent.com/debuggy/DockerForPAI_init/master/images/build_details.png)
 
 - After setting the auto build repo, you can focus on the dockerfile in github. And the docker image will built automatically based on the dockerfile.
 

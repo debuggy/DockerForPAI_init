@@ -1,14 +1,14 @@
 # How to maintain docker image by using dockerfile 
 
-When submitting jobs to [Microsoft PAI](https://github.com/Microsoft/pai), a docker image in [dockerhub](https://hub.docker.com/) is required in the job config. This tutorial aims to demonstrate how to maintain a docker image for Microsoft PAI by using dockerfile.
+When submitting jobs to [Microsoft OpenPAI](https://github.com/Microsoft/pai), a docker image in [dockerhub](https://hub.docker.com/) is required in the job config. This tutorial aims to demonstrate how to maintain a docker image for OpenPAI by using dockerfile.
 
 ## Prerequisites
-- An account in dockerhub. You can register a free account in dockerhub to push, update and share your own docker image. the account is nessesary if you want to build your own docker image in Microsoft API.
+- An account in dockerhub. You can register a free account in dockerhub to push, update and share your own docker image. the account is nessesary if you want to build your own docker image in OpenPAI.
 
 - An account in github. You will use github account to create a new repo for dockerfile.
 
 ## Write your own dockerfile
-- Write your own dockerfile to build docker image. Here is the official [dockerfile reference](https://docs.docker.com/engine/reference/builder/), you might use on of the [Microsoft PAI images](https://hub.docker.com/u/openpai/) as base image.
+- Write your own dockerfile to build docker image. Here is the official [dockerfile reference](https://docs.docker.com/engine/reference/builder/), you might use on of the [OpenPAI images](https://hub.docker.com/u/openpai/) as base image.
 
 ## Push dockerfile to a new github repo
 - Create a new github repo to maintain the dockerfile and others files needed during docker image build process.
@@ -34,5 +34,5 @@ When submitting jobs to [Microsoft PAI](https://github.com/Microsoft/pai), a doc
 
 - After setting the auto build repo, you can focus on the dockerfile in github. And the docker image will built automatically based on the dockerfile.
 
-## Use this autobuild image as Microsoft PAI job docker image
-- Use this autobuild image as Microsoft PAI job docker image. And this docker image will updated whenever the dockerfile changed.
+## Use this autobuild image as OpenPAI job docker image
+- Use this autobuild image as OpenPAI job docker image. And this docker image will updated whenever the dockerfile changed.

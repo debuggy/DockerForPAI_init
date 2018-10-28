@@ -7,8 +7,8 @@ before_script:
   - pip install -U pytest coveralls
 
 script:
-  - python src/paitest.py
-  - coverage run src/running_code.py
+  - python src/job.py
+  - coverage run src/job.py
 
 after_success:
   - coveralls

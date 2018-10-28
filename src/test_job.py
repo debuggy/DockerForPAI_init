@@ -1,7 +1,7 @@
-import running_code
+import job
 import tensorflow
 
 
 def test_pai_test():
-    result = running_code.hello_pai('pai')
+    result = job.hello_pai('pai')
     assert result == 'pai'

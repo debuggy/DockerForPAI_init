@@ -1,6 +1,8 @@
 # Docker Image for Microsoft OpenPAI
 [![Build Status](https://travis-ci.com/debuggy/DockerForPAI_init.svg?branch=master)](https://travis-ci.com/debuggy/DockerForPAI_init)
 
+[![Coverage Status](https://coveralls.io/repos/github/debuggy/DockerForPAI_init/badge.svg?branch=master)](https://coveralls.io/github/debuggy/DockerForPAI_init?branch=master)
+
 # How to maintain docker image by using dockerfile 
  
 When submitting jobs to [Microsoft OpenPAI](https://github.com/Microsoft/pai), a docker image in [dockerhub](https://hub.docker.com/) is required in the job config. This tutorial aims to demonstrate how to maintain a docker image for OpenPAI by using dockerfile.

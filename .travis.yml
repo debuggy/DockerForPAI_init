@@ -7,7 +7,7 @@ before_script:
   - pip install -U pytest coveralls
 
 script:
-  - python src/job.py
+  - pytest
   - coverage run src/job.py
 
 after_success:

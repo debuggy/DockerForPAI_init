@@ -1,6 +1,5 @@
 # Docker Image for Microsoft OpenPAI
 [![Build Status](https://travis-ci.com/debuggy/DockerForPAI_init.svg?branch=master)](https://travis-ci.com/debuggy/DockerForPAI_init)
-
 [![Coverage Status](https://coveralls.io/repos/github/debuggy/DockerForPAI_init/badge.svg?branch=master)](https://coveralls.io/github/debuggy/DockerForPAI_init?branch=master)
 
 # How to maintain docker image by using dockerfile 

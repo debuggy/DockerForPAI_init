@@ -4,4 +4,10 @@ COPY src /root/src
 
 WORKDIR /root
 
-CMD ["python", "src/cmd.py"]
+ENTRYPOINT ["python", "src/entrypoint.py"]
+
+# ENTRYPOINT python src/entrypoint.py
+
+# CMD ["python", "src/cmd.py"]
+
+# CMD python src/cmd.py

@@ -1,7 +1,6 @@
 # Docker Image for Microsoft OpenPAI
 
 [![Docker Automated build](https://img.shields.io/docker/automated/debuggy/dockerforpai_init.svg)](https://hub.docker.com/r/debuggy/dockerforpai_init/)
-
 [![Docker Build Status](https://img.shields.io/docker/build/debuggy/dockerforpai_init.svg)](https://hub.docker.com/r/debuggy/dockerforpai_init/)
 
 

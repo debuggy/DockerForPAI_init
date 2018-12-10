@@ -1,5 +1,5 @@
 import sys
-import pytorch
+import torch
 
 def hello_pai(test_string):
     print('hello {0}!'.format(test_string))
